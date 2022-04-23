@@ -32,6 +32,20 @@ a:focus, a:active {
   outline: none;
 }
 
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 p, span {
   margin-bottom: 1.5em;
   font-size: 20px;
@@ -49,7 +63,7 @@ h1, h2, h3, h4, h5, h6 {
   color: rgba(0, 0, 0, 0.8);
   font-family: "Roboto", Arial, serif;
   font-weight: 300;
-  margin: 0 0 30px 0;
+  margin: 80 0 20px 0;
 }
 
 ::-webkit-selection {
